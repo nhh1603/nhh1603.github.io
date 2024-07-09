@@ -10,9 +10,14 @@ const HomePage = () => {
             <Header />
             <section className="home-section">
                 <div className='home-container'>
-                    <h1 classname="home-title">Welcome to my portfolio</h1>
-                    <h2 classname="home-subtitle">I'm an engineering student</h2>
-                    <p classname="home-description">I'm a software engineering student at the University of Waterloo. I'm passionate about web development and I'm always looking for new opportunities to learn and grow.</p>
+                    <p className="home-intro">Hello, my name is</p>
+                    <h1 className="home-title">Hoang Nghia Hieu</h1>
+                    <h2 className="home-subtitle">I teach machine to do things</h2>
+                    <p className="home-description">
+                    I am an engineering student at the National Institute of Applied Sciences of Lyon (INSA Lyon) and an AI engineer apprentice at SLIB. 
+                    With hands-on experience in the FinTech industry, I am passionate about AI and Machine Learning, particularly in designing and 
+                    implementing AI solutions for finance.
+                    </p>
                     <div className="home-social-links">
                         <a href="" target='_blank' rel='noreferrer noopener' className="home-social-link">
                             <FaGithub />
@@ -30,6 +35,32 @@ const HomePage = () => {
                             <FaEnvelope />
                         </a>
                     </div>
+                </div>
+                <div className="code-snippet">
+                    <div className="code-header">
+                        <div className="circle red"></div>
+                        <div className="circle yellow"></div>
+                        <div className="circle green"></div>
+                    </div>
+                    <pre>
+                        <code>
+                            {`// Example Code
+const engineer = {
+    name: 'Hieu',
+    expertise: 'AI/Machine Learning',
+    technicalSkills: {
+        programming: ['Python', 'JavaScript', 'Java', 'Go', 'C', 'SQL'],
+        machineLearning: ['TensorFlow', 'PyTorch'],
+        webDevelopment: ['React', 'Node.js', 'Express', 'Angular', 'Spring', 
+                         'MongoDB', 'PostgreSQL'],
+        devOps: ['Docker', 'Kubernetes', 'Jenkins', 'Ansible', 'Git'],
+    },
+    softSkills: ['Problem Solving', 'Teamwork', 'Communication', 'Leadership'],
+}
+
+greet();`}
+                        </code>
+                    </pre>
                 </div>
             </section>
         </>
