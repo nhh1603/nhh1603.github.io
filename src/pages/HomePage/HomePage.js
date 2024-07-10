@@ -1,10 +1,10 @@
 import React from 'react';
-import Header from '../../components/Header/Header';
 import { FaGithub, FaEnvelope, FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { vscDarkPlus } from 'react-syntax-highlighter/dist/esm/styles/prism';
 
 import './HomePage.css';
+import SectionDivider from '../../components/SectionDivider/SectionDivider';
 
 const HomePage = () => {
     const codeString = `// Define Hieu
@@ -22,10 +22,9 @@ const engineer = {
 }`
     return (
         <>
-            <Header />
             <section className="home-section">
                 <div className='home-container'>
-                    <p className="home-intro">Hello, my name is</p>
+                    <p className="home-intro">Hello👋, my name is</p>
                     <h1 className="home-title">Hoang Nghia Hieu</h1>
                     <h2 className="home-subtitle">I teach machine to do things</h2>
                     <p className="home-description">
@@ -65,6 +64,7 @@ const engineer = {
                     </pre>
                 </div>
             </section>
+            <SectionDivider />
         </>
     );
 }

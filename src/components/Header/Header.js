@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { FiMenu, FiX } from 'react-icons/fi';
 
 import './Header.css';
@@ -6,6 +7,7 @@ import './Header.css';
 const Header = () => {
     const [isMobile, setIsMobile] = useState(false);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const navigate = useNavigate();
 
     useEffect(() => {
         const handleResize = () => {
@@ -23,6 +25,10 @@ const Header = () => {
         document.body.style.overflow = isMenuOpen ? 'auto' : 'hidden';
     };
 
+    const handleNavigation = (path) => {
+        navigate(path);
+    };
+
     return (
         <>
             <header className="header-wrapper">
@@ -37,8 +43,8 @@ const Header = () => {
                 )}
                 {isMobile ? (
                     <nav className={`mobile-menu ${isMenuOpen ? 'open' : ''}`}>
-                        <a className="menu-item">About</a>
-                        <a className="menu-item">Education</a>
+                        <a className="menu-item" onClick={() => handleNavigation('/about')}>About</a>
+                        <a className="menu-item" onClick={() => handleNavigation('/')}>Education</a>
                         <a className="menu-item">Experience</a>
                         <a className="menu-item">Projects</a>
                         <a className="menu-item">Blogs</a>
@@ -46,7 +52,7 @@ const Header = () => {
                     </nav>
                 ) : (
                     <nav className="desktop-menu">
-                        <a className="menu-item">About</a>
+                        <a className="menu-item" onClick={() => handleNavigation('/about')}>About</a>
                         <a className="menu-item">Education</a>
                         <a className="menu-item">Experience</a>
                         <a className="menu-item">Projects</a>

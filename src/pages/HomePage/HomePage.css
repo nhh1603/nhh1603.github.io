@@ -6,6 +6,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 2rem;
+    margin: 0 7.5%;
     flex-wrap: wrap;
 }
 
@@ -49,11 +50,11 @@
     background-repeat: no-repeat;
     background-size: 0% 2px;
     transition: background-size 0.3s ease-out;
-  }
-  
-  .highlight-link:hover {
+}
+
+.highlight-link:hover {
     background-size: 100% 2px;
-  }
+}
 
 .highlight-link::after {
     content: '';
@@ -66,10 +67,6 @@
     transform: scaleX(0);
     transform-origin: left;
     transition: transform 0.3s ease-out;
-}
-
-.highlight-link:hover::after {
-    transform: scaleX(1);
 }
 
 .highlight-pink {
@@ -142,10 +139,10 @@
     padding: 1rem;
 }
 
-.code-snippet pre > div {
+.code-snippet pre>div {
     white-space: pre-wrap !important;
     word-break: break-word !important;
-    font-size: 1rem !important; 
+    font-size: 1rem !important;
 }
 
 .code-header {
@@ -180,6 +177,7 @@
     .home-section {
         flex-direction: column;
         text-align: center;
+        margin: 0 auto;
     }
 
     .home-container,
