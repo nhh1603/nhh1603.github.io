@@ -84,7 +84,7 @@ h6 {
 body {
     font-family: 'Roboto', sans-serif;
     background-color: var(--navy);
-    color: #fff;
+    color: var(--slate);
     padding: 0;
     margin: 0;
 }
