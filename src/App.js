@@ -8,46 +8,35 @@ import HomePage from './pages/HomePage/HomePage';
 import AboutPage from './pages/AboutPage/AboutPage';
 
 function App() {
-    return (
-        <Fragment>
-            <Main />
-        </Fragment>
-    );
-}
-
-const Main = () => {
-    const aboutRef = useRef(null);
-
-    return (
-        <>
-            <Header />
-            <ScrollToSection />
-            <div className="main-content">
-                <Routes>
-                    {/* <Route path="/*" element={<MainContent />} /> */}
-                </Routes>
-            </div>
-        </>
-    );
-};
-
-const ScrollToSection = () => {
-    const { pathname } = useLocation();
+    const location = useLocation();
 
     useEffect(() => {
-        const sectionId = pathname.replace('/', '-section');
-        if (sectionId) {
-            scroller.scrollTo(sectionId, {
+        const path = location.pathname;
+        if (path === "/") {
+            scroller.scrollTo('HomePage', {
                 duration: 800,
                 delay: 0,
                 smooth: 'easeInOutQuart'
-            });
-        } else {
-            window.scrollTo(0, 0);
+            })
+        } else if (path === "/about") {
+            scroller.scrollTo('AboutPage', {
+                duration: 800,
+                delay: 0,
+                smooth: 'easeInOutQuart'
+            })
         }
-    }, [pathname]);
+    }, [location]);
 
-    return null;
+    return (
+        <Fragment>
+            <Header />
+            <div id="HomePage">
+                <HomePage />
+            </div>
+            <div id="AboutPage">
+                <AboutPage />
+            </div>
+        </Fragment>
+    );
 }
-
 export default App;

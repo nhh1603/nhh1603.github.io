@@ -22,6 +22,7 @@ const AboutPage = () => {
                 </div>
             </section>
             <SectionDivider />
+            {/* <div className="section-divider"></div> */}
         </>
     );
 }

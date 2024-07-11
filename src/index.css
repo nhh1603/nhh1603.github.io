@@ -88,3 +88,8 @@ body {
     padding: 0;
     margin: 0;
 }
+
+html {
+    scrollbar-width: thin;
+    scrollbar-color: var(--dark-slate) var(--navy);
+}
