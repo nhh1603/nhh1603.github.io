@@ -30,9 +30,9 @@
 }
 
 .about-description {
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
     line-height: 1.6;
-    color: var(--light-slate);
+    margin-bottom: 0.5rem;
 }
 
 .about-photo {
@@ -44,8 +44,15 @@
 .photo {
     width: 100%;
     max-width: 300px;
-    border-radius: 50%;
-    border: 4px solid var(--green);
+    border-radius: 5%;
+    border: 2px solid var(--green);
+    filter: grayscale(100%); /* Make the photo black and white */
+    transition: filter 0.7s ease, transform 0.7s ease; /* Smooth transition for color and size */
+}
+
+.photo:hover {
+    filter: grayscale(0%); /* Bring back the color */
+    transform: scale(1.05); /* Slightly expand the photo */
 }
 
 @media (max-width: 768px) {

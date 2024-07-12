@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { FiMenu, FiX } from 'react-icons/fi';
 
 import './Header.css';
+import logo from '../../assets/logo.png';
 
 const Header = () => {
     const [isMobile, setIsMobile] = useState(false);
@@ -32,7 +33,9 @@ const Header = () => {
     return (
         <>
             <header className="header-wrapper">
-                <div className="logo">Hieu</div>
+                <div className="logo" onClick={() => handleNavigation('/')}>
+                    <img src={logo} alt="Hieu Logo" className="logo-image" />
+                </div>
                 {isMobile && (
                     <button className="menu-button" onClick={toggleMenu}>
                         <div className={`icon-container ${isMenuOpen ? 'open' : ''}`}>
@@ -53,7 +56,7 @@ const Header = () => {
                 ) : (
                     <nav className="desktop-menu">
                         <a className="menu-item" onClick={() => handleNavigation('/about')}>About</a>
-                        <a className="menu-item"onClick={() => handleNavigation('/')}>Education</a>
+                        <a className="menu-item" onClick={() => handleNavigation('/')}>Education</a>
                         <a className="menu-item">Experience</a>
                         <a className="menu-item">Projects</a>
                         <a className="menu-item">Blogs</a>
