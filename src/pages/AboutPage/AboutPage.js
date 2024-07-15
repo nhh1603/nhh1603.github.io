@@ -8,7 +8,7 @@ const AboutPage = () => {
     return (
         <>
             <section className="about-section">
-                <div className="about-content">
+                <div className="about-container">
                     <div className="about-text">
                         <h1 className="about-title">About Me</h1>
                         <p className="about-description">
@@ -16,7 +16,7 @@ const AboutPage = () => {
                         </p>
                         <p className="about-description">
                         From a young age, I have harbored a deep passion for two things: Mathematics and Teaching. Before attending university, I earned 
-                        several remarkable awards in national and international mathematics competitions. Additionally, I successfully mentored around 
+                        several remarkable awards in national and international Mathematics competitions. Additionally, I successfully mentored around 
                         ten students to achieve similar accolades.
                         </p>
                         <p className="about-description">
@@ -32,7 +32,6 @@ const AboutPage = () => {
                 </div>
             </section>
             <SectionDivider />
-            {/* <div className="section-divider"></div> */}
         </>
     );
 }

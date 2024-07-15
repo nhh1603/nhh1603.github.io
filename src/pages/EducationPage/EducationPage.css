@@ -1,0 +1,101 @@
+.education-section {
+    background-color: #0a192f;
+    font-family: var(--font-sans);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left */
+    justify-content: center;
+    padding: 2rem;
+    margin: 0 7.5%;
+    color: #8892b0;
+}
+
+.section-title {
+    color: var(--lightest-slate);
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    align-self: flex-start; /* Align the title to the left */
+}
+
+.education-content {
+    display: flex;
+    flex-direction: column; /* Stack the content vertically on smaller screens */
+    width: 100%; /* Ensure content takes full width */
+}
+
+.school-list {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem; /* Add space below for smaller screens */
+    min-width: 120px;
+}
+
+.school-item {
+    padding: 0.5rem 1rem;
+    background-color: transparent;
+    color: var(--slate);
+    border: none;
+    border-left: 2px solid var(--lightest-navy);
+    cursor: pointer;
+    text-align: left;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+.school-item:hover, .school-item.active {
+    background-color: #172a45;
+    color: var(--green);
+    border-left-color: var(--green);
+}
+
+.school-details {
+    flex: 1;
+}
+
+.school-details h3 {
+    color: var(--lightest-slate);
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.school-details .institute, .school-details .duration {
+    color: var(--green);
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.school-details p {
+    margin-bottom: 0.5rem;
+}
+
+.school-details ul {
+    list-style-type: none;
+    padding-left: 1rem;
+    margin-top: 1rem;
+}
+
+.school-details li {
+    position: relative;
+    padding-left: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.school-details li::before {
+    content: '▹';
+    position: absolute;
+    left: 0;
+    color: var(--green);
+}
+
+/* Media Query for Mobile Responsiveness */
+@media (min-width: 768px) {
+    .education-content {
+        flex-direction: row; /* Stack content side-by-side for larger screens */
+    }
+
+    .school-list {
+        margin-right: 2rem; /* Restore margin for larger screens */
+        margin-bottom: 0; /* Remove bottom margin for larger screens */
+    }
+}

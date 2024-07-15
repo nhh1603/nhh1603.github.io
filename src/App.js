@@ -6,6 +6,7 @@ import './App.css';
 import Header from './components/Header/Header';
 import HomePage from './pages/HomePage/HomePage';
 import AboutPage from './pages/AboutPage/AboutPage';
+import EducationPage from './pages/EducationPage/EducationPage';
 
 function App() {
     const location = useLocation();
@@ -24,6 +25,12 @@ function App() {
                 delay: 0,
                 smooth: 'easeInOutQuart'
             })
+        } else if (path === "/education") {
+            scroller.scrollTo('EducationPage', {
+                duration: 800,
+                delay: 0,
+                smooth: 'easeInOutQuart'
+            })
         }
     }, [location]);
 
@@ -35,6 +42,9 @@ function App() {
             </div>
             <div id="AboutPage">
                 <AboutPage />
+            </div>
+            <div id="EducationPage">
+                <EducationPage />
             </div>
         </Fragment>
     );

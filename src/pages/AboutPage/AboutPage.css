@@ -10,7 +10,7 @@
     flex-wrap: wrap;
 }
 
-.about-content {
+.about-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -24,7 +24,7 @@
 }
 
 .about-title {
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: var(--lightest-slate);
     margin-bottom: 1rem;
 }
@@ -32,7 +32,7 @@
 .about-description {
     /* font-size: 1.2rem; */
     line-height: 1.6;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.7rem;
 }
 
 .about-photo {
@@ -56,7 +56,7 @@
 }
 
 @media (max-width: 768px) {
-    .about-content {
+    .about-container {
         flex-direction: column;
         text-align: center;
     }
