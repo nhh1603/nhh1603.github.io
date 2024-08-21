@@ -1,20 +1,22 @@
 [
     {
         "degree": "Master of Engineering in Telecommunications",
-        "institute": "National Institute of Applied Sciences of Lyon (INSA Lyon), Lyon, France",
+        "institute": "National Institute of Applied Sciences of Lyon (INSA Lyon)",
         "institute_short": "INSA Lyon",
+        "location": "Lyon, France",
         "duration": "2020 - Present",
         "score": "14+/20 (4.0/4.0 equivalent)",
         "description": [
             "Currently pursuing a Master's degree in Telecommunications Engineering. Enrolled in the final year with an apprenticeship program, working as an AI engineer at SLIB, a subsidiary of BNP Paribas, to gain practical experience and apply advanced AI methodologies in a professional setting.",
-            "The course covers a wide range of topics in 3 main areas: Computer Science, Networking and Communication System. Whilst the whole course provides a solide foundation in how everything ",
+            "The course covers a wide range of topics in 3 main areas: Computer Science, Networking and Communication System. Whilst the whole course provides a solide foundation in how everything works on the Internet, my main focus is on Computer Science, especially AI and Machine Learning.",
             "The course also includes a 6-month internship, which I am currently pursuing at Orange Labs, France."
         ]
     },
     {
         "degree": "Baccalaurate in Mathematics",
-        "institute": "Hanoi - Amsterdam High School for the Gifted, Hanoi, Vietnam",
+        "institute": "Hanoi - Amsterdam High School for the Gifted",
         "institute_short": "Hanoi - Amsterdam",
+        "location": "Hanoi, Vietnam",
         "duration": "2017 - 2020",
         "score": "9.8/10",
         "description": [

@@ -7,6 +7,8 @@ import Header from './components/Header/Header';
 import HomePage from './pages/HomePage/HomePage';
 import AboutPage from './pages/AboutPage/AboutPage';
 import EducationPage from './pages/EducationPage/EducationPage';
+import ExperiencePage from './pages/ExperiencePage/ExperiencePage';
+import ProjectsPage from './pages/ProjectsPage/ProjectsPage';
 
 function App() {
     const location = useLocation();
@@ -31,6 +33,18 @@ function App() {
                 delay: 0,
                 smooth: 'easeInOutQuart'
             })
+        } else if (path === "/experience") {
+            scroller.scrollTo('ExperiencePage', {
+                duration: 800,
+                delay: 0,
+                smooth: 'easeInOutQuart'
+            })
+        } else if (path === "/projects") {
+            scroller.scrollTo('ProjectsPage', {
+                duration: 800,
+                delay: 0,
+                smooth: 'easeInOutQuart'
+            })
         }
     }, [location]);
 
@@ -45,6 +59,12 @@ function App() {
             </div>
             <div id="EducationPage">
                 <EducationPage />
+            </div>
+            <div id="ExperiencePage">
+                <ExperiencePage />
+            </div>
+            <div id="ProjectsPage">
+                <ProjectsPage />
             </div>
         </Fragment>
     );

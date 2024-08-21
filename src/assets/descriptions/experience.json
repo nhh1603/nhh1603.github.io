@@ -1,0 +1,38 @@
+[
+    {
+        "title": "R&D Enginneer in AI",
+        "company": "SLIB",
+        "contract": "Apprenticeship",
+        "location": "Lyon, France",
+        "duration": "Sep 2024 - Present",
+        "description": [
+        "Description 1",
+        "Description 2",
+        "Description 3"
+        ]
+    },
+    {
+        "title": "AI Developer",
+        "company": "SLIB",
+        "contract": "Internship",
+        "location": "Lyon, France",
+        "duration": "Apr 2024 - Aug 2024",
+        "description": [
+        "Description 1",
+        "Description 2",
+        "Description 3"
+        ]
+    },
+    {
+        "title": "Cybersecurity Analyst",
+        "company": "BNP Paribas",
+        "contract": "Internship",
+        "location": "Montreal, Canada",
+        "duration": "Jul 2023 - Aug 2023",
+        "description": [
+        "Description 1",
+        "Description 2",
+        "Description 3"
+        ]
+    }
+]

@@ -16,7 +16,8 @@ const engineer = {
         machineLearning: ['TensorFlow', 'PyTorch'],
         webDevelopment: ['React', 'Node.js', 'Express', 'Angular', 'Spring', 
                          'MongoDB', 'PostgreSQL'],
-        devOps: ['Docker', 'Kubernetes', 'Jenkins', 'Ansible', 'Git'],
+        devOps: ['Docker', 'Kubernetes', 'Jenkins', 'Terraform', 'Git'],
+        cloudComputing: ['Azure', 'AWS', 'Firebase'],
     },
     softSkills: ['Problem Solving', 'Teamwork', 'Communication', 'Leadership'],
 }`
@@ -60,6 +61,7 @@ const engineer = {
                     <pre>
                         <SyntaxHighlighter language="javascript" style={vscDarkPlus} wrapLines={true} wrapLongLines={true} customStyle={{ fontSize: '14px' }}>
                             {codeString}
+                            {/* {selfDescription} */}
                         </SyntaxHighlighter>
                     </pre>
                 </div>

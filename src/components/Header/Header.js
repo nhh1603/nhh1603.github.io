@@ -48,8 +48,8 @@ const Header = () => {
                     <nav className={`mobile-menu ${isMenuOpen ? 'open' : ''}`}>
                         <a className="menu-item" onClick={() => handleNavigation('/about')}>About</a>
                         <a className="menu-item" onClick={() => handleNavigation('/education')}>Education</a>
-                        <a className="menu-item">Experience</a>
-                        <a className="menu-item">Projects</a>
+                        <a className="menu-item" onClick={() => handleNavigation('/experience')}>Experience</a>
+                        <a className="menu-item" onClick={() => handleNavigation('/projects')}>Projects</a>
                         <a className="menu-item">Blogs</a>
                         <a className="menu-item">Contact</a>
                     </nav>
@@ -57,8 +57,8 @@ const Header = () => {
                     <nav className="desktop-menu">
                         <a className="menu-item" onClick={() => handleNavigation('/about')}>About</a>
                         <a className="menu-item" onClick={() => handleNavigation('/education')}>Education</a>
-                        <a className="menu-item">Experience</a>
-                        <a className="menu-item">Projects</a>
+                        <a className="menu-item" onClick={() => handleNavigation('/experience')}>Experience</a>
+                        <a className="menu-item" onClick={() => handleNavigation('/projects')}>Projects</a>
                         <a className="menu-item">Blogs</a>
                         <a className="menu-item">Contact</a>
                     </nav>
