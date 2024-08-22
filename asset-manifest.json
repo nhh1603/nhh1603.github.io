@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.474bce8c.css",
+    "main.js": "/portfolio/static/js/main.6df1c288.js",
+    "static/js/254.aaa3199c.chunk.js": "/portfolio/static/js/254.aaa3199c.chunk.js",
+    "static/media/Hanoi-Amsterdam.jpg": "/portfolio/static/media/Hanoi-Amsterdam.3a8db1e1ddcc2b74cd49.jpg",
+    "static/media/avatar.jpg": "/portfolio/static/media/avatar.2eb11436e3bfcf0fac47.jpg",
+    "static/media/INSA.jpg": "/portfolio/static/media/INSA.a8ef2492ab3ce60c79b0.jpg",
+    "static/media/js_thumbnail.jpeg": "/portfolio/static/media/js_thumbnail.2c79128ec8032f479553.jpeg",
+    "static/media/BNP.jpg": "/portfolio/static/media/BNP.c3e92c44d0f730ea29de.jpg",
+    "static/media/logo.png": "/portfolio/static/media/logo.33fd7e2e9e8cb4863fcb.png",
+    "static/media/SLIB.png": "/portfolio/static/media/SLIB.7a6ab45e1820b4f58172.png",
+    "index.html": "/portfolio/index.html",
+    "main.474bce8c.css.map": "/portfolio/static/css/main.474bce8c.css.map",
+    "main.6df1c288.js.map": "/portfolio/static/js/main.6df1c288.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.474bce8c.css",
+    "static/js/main.6df1c288.js"
+  ]
+}
