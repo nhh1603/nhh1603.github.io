@@ -9,6 +9,8 @@ import AboutPage from './pages/AboutPage/AboutPage';
 import EducationPage from './pages/EducationPage/EducationPage';
 import ExperiencePage from './pages/ExperiencePage/ExperiencePage';
 import ProjectsPage from './pages/ProjectsPage/ProjectsPage';
+import BlogsPage from './pages/BlogsPage/BlogsPage';
+import ContactPage from './pages/ContactPage/ContactPage';
 
 function App() {
     const location = useLocation();
@@ -45,6 +47,18 @@ function App() {
                 delay: 0,
                 smooth: 'easeInOutQuart'
             })
+        } else if (path === "/blogs") {
+            scroller.scrollTo('BlogsPage', {
+                duration: 800,
+                delay: 0,
+                smooth: 'easeInOutQuart'
+            })
+        } else if (path === "/contact") {
+            scroller.scrollTo('ContactPage', {
+                duration: 800,
+                delay: 0,
+                smooth: 'easeInOutQuart'
+            })
         }
     }, [location]);
 
@@ -65,6 +79,12 @@ function App() {
             </div>
             <div id="ProjectsPage">
                 <ProjectsPage />
+            </div>
+            <div id="BlogsPage">
+                <BlogsPage />
+            </div>
+            <div id="ContactPage">
+                <ContactPage />
             </div>
         </Fragment>
     );

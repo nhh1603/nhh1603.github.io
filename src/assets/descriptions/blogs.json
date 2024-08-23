@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Building a React Component Library",
+        "thumbnail": "js_thumbnail.jpeg",
+        "description": "Learn how to create a reusable component library in React and publish it to npm."
+    },
+    {
+        "title": "Optimizing Website Performance",
+        "thumbnail": "js_thumbnail.jpeg",
+        "description": "Explore techniques to improve your website's loading speed and overall performance."
+    },
+    {
+        "title": "Introduction to GraphQL",
+        "thumbnail": "js_thumbnail.jpeg",
+        "description": "Discover the benefits of GraphQL and how to implement it in your next project."
+    }
+]

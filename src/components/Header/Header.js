@@ -50,8 +50,8 @@ const Header = () => {
                         <a className="menu-item" onClick={() => handleNavigation('/education')}>Education</a>
                         <a className="menu-item" onClick={() => handleNavigation('/experience')}>Experience</a>
                         <a className="menu-item" onClick={() => handleNavigation('/projects')}>Projects</a>
-                        <a className="menu-item">Blogs</a>
-                        <a className="menu-item">Contact</a>
+                        <a className="menu-item" onClick={() => handleNavigation('/blogs')}>Blogs</a>
+                        <a className="menu-item" onClick={() => handleNavigation('/contact')}>Contact</a>
                     </nav>
                 ) : (
                     <nav className="desktop-menu">
@@ -59,8 +59,8 @@ const Header = () => {
                         <a className="menu-item" onClick={() => handleNavigation('/education')}>Education</a>
                         <a className="menu-item" onClick={() => handleNavigation('/experience')}>Experience</a>
                         <a className="menu-item" onClick={() => handleNavigation('/projects')}>Projects</a>
-                        <a className="menu-item">Blogs</a>
-                        <a className="menu-item">Contact</a>
+                        <a className="menu-item" onClick={() => handleNavigation('/blogs')}>Blogs</a>
+                        <a className="menu-item" onClick={() => handleNavigation('/contact')}>Contact</a>
                     </nav>
                 )}
             </header>

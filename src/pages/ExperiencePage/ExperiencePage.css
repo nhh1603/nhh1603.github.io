@@ -33,7 +33,7 @@
 
 .experience-content .photo-img {
     width: 100%;
-    max-width: 300px;
+    max-width: 200px;
     border-radius: 5%;
     border: 2px solid var(--green);
     filter: grayscale(100%); /* Make the photo black and white */
