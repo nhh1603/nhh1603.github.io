@@ -5,6 +5,7 @@ import SectionDivider from '../../components/SectionDivider/SectionDivider';
 import experienceData from '../../assets/descriptions/experience.json';
 import slibPhoto from '../../assets/SLIB.png';
 import bnpPhoto from '../../assets/BNP.jpg';
+import insaPhoto from '../../assets/INSA_logo.png';
 
 const ExperiencePage = () => {
     const [selectedJob, setSelectedJob] = useState(experienceData[0]);
@@ -15,6 +16,8 @@ const ExperiencePage = () => {
                 return <img src={slibPhoto} alt={selectedJob.company} className="photo-img" />;
             case 'BNP Paribas':
                 return <img src={bnpPhoto} alt={selectedJob.company} className="photo-img" />;
+            case 'INSA Lyon':
+                return <img src={insaPhoto} alt={selectedJob.company} className="photo-img" />;
             default:
                 return <img src={slibPhoto} alt={selectedJob.company} className="photo-img" />;
         }

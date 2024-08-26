@@ -1,21 +1,21 @@
 .contact-section {
     font-family: var(--font-sans);
-    padding: 100px 20px;
+    padding: 0px 20px;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 100vh;
+    min-height: calc(100vh - 53px);
     justify-content: center;
 }
 
-.section-title {
+.contact-section .section-title {
     color: #ccd6f6;
     font-size: 60px;
     margin-bottom: 20px;
 }
 
-.section-description {
+.contact-section .section-description {
     max-width: 600px;
     margin: 0 auto 40px;
     line-height: 1.5;
@@ -42,7 +42,10 @@
 }
 
 .footer {
-    margin-top: 100px;
+    font-family: var(--font-sans);
+    text-align: center;
+    padding: 20px 0;
+    /* margin-top: 250px; */
     font-size: 14px;
 }
 

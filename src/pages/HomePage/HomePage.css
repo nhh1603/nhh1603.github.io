@@ -42,33 +42,6 @@
     margin-bottom: 1rem;
 }
 
-.highlight-link {
-    color: var(--green);
-    text-decoration: none;
-    background-image: linear-gradient(var(--green), var(--green));
-    background-position: 0 100%;
-    background-repeat: no-repeat;
-    background-size: 0% 2px;
-    transition: background-size 0.3s ease-out;
-}
-
-.highlight-link:hover {
-    background-size: 100% 2px;
-}
-
-.highlight-link::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    background-color: var(--green);
-    left: 0;
-    bottom: -2px;
-    transform: scaleX(0);
-    transform-origin: left;
-    transition: transform 0.3s ease-out;
-}
-
 .highlight-pink {
     color: #ff6b6b;
 }

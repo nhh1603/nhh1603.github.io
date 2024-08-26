@@ -43,10 +43,10 @@ const EducationPage = () => {
                     <div className="school-details">
                         {selectedSchool && (
                             <>
-                                <h3>{selectedSchool.title}</h3>
+                                <h3>{selectedSchool.degree}</h3>
                                 <p className="institute">{selectedSchool.institute}</p>
                                 <p className="location duration">{selectedSchool.location} | {selectedSchool.duration}</p>
-                                <p><strong>Score:</strong> {selectedSchool.score}</p>
+                                <p><strong>GPA:</strong> {selectedSchool.score}</p>
                                 <ul>
                                     {selectedSchool.description.map((desc, index) => (
                                         <li key={index}>{desc}</li>

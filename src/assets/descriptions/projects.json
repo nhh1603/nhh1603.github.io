@@ -1,6 +1,6 @@
 [
     {
-        "title": "Integrating Algolia Search with WordPress Multisite",
+        "title": "Portfolio Website",
         "description":
             "Building a custom multisite compatible WordPress plugin to build global search with Algolia",
         "technologies": ["Algolia", "WordPress", "PHP"],

@@ -18,21 +18,37 @@
         "location": "Lyon, France",
         "duration": "Apr 2024 - Aug 2024",
         "description": [
-        "Description 1",
-        "Description 2",
-        "Description 3"
+        "Engineered an innovative AI application from scratch for the financial and banking sector, with a primary focus on embedding Central Securities Depositories Regulation (CSDR) compliance capabilities. This system was designed to facilitate France Post-Marché's adherence to regulatory standards, offering enhanced interpretability and application of CSDR mandates.",
+        "Architected the application with a Retrieval-Augmented Generation (RAG) framework, leveraging state-of-the-art Large Language Models (LLMs) to deliver precise, context-sensitive responses.",
+        "The application demonstrated a marked improvement in operational efficiency over its predecessor, as validated by end-user feedback. Consistently received high user satisfaction ratings, averaging between 8-10/10, indicating substantial gains in user experience and performance.",
+        "Acquired strong programming skills in Java (Spring Boot) and Javascript (Angular), with the integration of Azure and OpenAI APIs.",
+        "Designed and deployed cloud infrastructure on Microsoft Azure, ensuring seamless scalability and robust performance.",
+        "Integrated CI/CD pipelines using Jenkins and Terraform."
         ]
     },
     {
-        "title": "Cybersecurity Analyst",
+        "title": "Cybersecurity Specialist",
         "company": "BNP Paribas",
         "contract": "Internship",
         "location": "Montreal, Canada",
         "duration": "Jul 2023 - Aug 2023",
         "description": [
-        "Description 1",
-        "Description 2",
-        "Description 3"
+        "Supported the lifecycle management of security solutions, from evaluation and testing to deployment and documentation. Collaborated with IT architects to integrate security capabilities into broader IT services and processes.",
+        "Assisted in the design, development, and deployment of advanced security solutions, focusing on Malware Protection technologies such as McAfee and Kaspersky. Contributed to enhancing the organization's cybersecurity infrastructure.",
+        "Participated in security analysis and incident response activities, leveraging expertise in data protection and scripting languages like PowerShell and Python to automate security tasks and improve efficiency.",
+        "Assisted in managing cybersecurity projects and programs, providing administrative and technical support to maintain production stability and ensure the sustainability of security controls."
+        ]
+    },
+    {
+        "title": "Tutor",
+        "company": "INSA Lyon",
+        "contract": "Fixed-term Contract",
+        "location": "Lyon, France",
+        "duration": "Sep 2022 - Jun 2024",
+        "description": [
+        "Provided academic support in Mathematics and Computer Science to first and second-year students, tutoring them to deepen their understanding of core concepts and methodologies.",
+        "For Mathematics, focused on topics such as Linear Algebra, Probability, and Statistics.",
+        "For Computer Science, covered subjects including Algorithms, Data Structures, and Object-Oriented Programming, mainly in Python and Java."
         ]
     }
 ]
