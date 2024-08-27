@@ -9,31 +9,33 @@ import SectionDivider from '../../components/SectionDivider/SectionDivider';
 const ProjectCard = ({ title, description, technologies, githubLink, externalLink }) => {
     return (
         <div className="project-card">
-            <div className="project-header">
-                <div className="project-icon">
-                    <FaRegFolder className="folder-icon" />
+            <div className="project-content">
+                <div className="project-header">
+                    <div className="project-icon">
+                        <FaRegFolder className="folder-icon" />
+                    </div>
+                    <div className="project-links">
+                        <a
+                            href={githubLink ? githubLink : "#"}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className={`link-icon ${!githubLink ? 'hidden' : ''}`}
+                        >
+                            <FiGithub />
+                        </a>
+                        <a
+                            href={externalLink ? externalLink : "#"}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className={`link-icon ${!externalLink ? 'hidden' : ''}`}
+                        >
+                            <FiExternalLink />
+                        </a>
+                    </div>
                 </div>
-                <div className="project-links">
-                    <a
-                        href={githubLink ? githubLink : "#"}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className={`link-icon ${!githubLink ? 'hidden' : ''}`}
-                    >
-                        <FiGithub />
-                    </a>
-                    <a
-                        href={externalLink ? externalLink : "#"}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className={`link-icon ${!externalLink ? 'hidden' : ''}`}
-                    >
-                        <FiExternalLink />
-                    </a>
-                </div>
-            </div>
-            <h3 className="project-title">{title}</h3>
-            <p className="project-description">{description}</p>
+                <h3 className="project-title">{title}</h3>
+                <p className="project-description">{description}</p>
+            </div>    
             <div className="project-technologies">
                 {technologies.map((tech, index) => (
                     <span key={index} className="tech-tag">
@@ -64,7 +66,7 @@ const ProjectsPage = () => {
                     ))}
                 </div>
                 <div className="view-archive">
-                    <a href="#">view the archive</a>
+                    <button className="contact-button">See More</button>
                 </div>
             </section>
             <SectionDivider />

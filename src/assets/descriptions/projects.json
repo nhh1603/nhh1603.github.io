@@ -2,40 +2,43 @@
     {
         "title": "Portfolio Website",
         "description":
-            "Building a custom multisite compatible WordPress plugin to build global search with Algolia",
-        "technologies": ["Algolia", "WordPress", "PHP"],
-        "githubLink": "https://github.com/example/algolia-wordpress-plugin",
-        "externalLink": "https://example.com/algolia-wordpress-plugin"
+            "A website to showcase my profile in a more interactive way.",
+        "technologies": ["React", "CSS"],
+        "githubLink": "https://github.com/nhh1603/portfolio",
+        "externalLink": "https://nhh1603.github.io/portfolio/"
     },
     {
-        "title": "Time to Have More Fun",
+        "title": "FPM Regulatory Watch",
         "description":
-            "A single page web app for helping me choose where to travel, built with Next.js, Firebase, and Tailwind CSS",
-        "technologies": ["Next.js", "Tailwind CSS", "Firebase"],
-        "githubLink": "https://github.com/example/algolia-wordpress-plugin"
+            "My internship project at SLIB. An internal AI-powered web application that helps financial institutions to comply with the latest regulations.",
+        "technologies": ["Anglular", "Spring Boot", "Azure", "OpenAI", "Jenkins", "Terraform"]
     },
     {
-        "title": "Building a Headless Mobile App CMS From Scratch",
+        "title": "Melanoma Detection",
         "description":
-            "Find out how we built a custom headless CMS with Node, Express, and Firebase for a project at Upstatement",
-        "technologies": ["Node", "Express", "Firebase", "Vue"]
+            "A deep learning project aims to detect melanoma, a type of skin cancer, from a large and unbalanced dataset of images.",
+        "technologies": ["Python", "PyTorch", "Deep Learning"],
+        "githubLink": "https://github.com/nhh1603/Projet_CVML"
     },
     {
-        "title": "OctoProfile",
+        "title": "SpotiC",
         "description":
-            "A nicer look at your GitHub profile and repo stats. Includes data visualizations of your top languages, started repositories, and sort through your top repos by number of stars, forks, and size.",
-        "technologies": ["Next.js", "Chart.js", "GitHub API"]
+            "A replica of the famous Spotify. A MERN stack music-streaming web application.",
+        "technologies": ["React", "Express.js", "MongoDB", "Node.js", "Redux"],
+        "githubLink": "https://github.com/users/nhh1603/projects/2"
     },
     {
-        "title": "Google Keep Clone",
+        "title": "Bitcoin Complexity",
         "description":
-            "A simple Google Keep clone built with Vue and Firebase.",
-        "technologies": ["Vue", "Firebase"]
+            "A research project to analyze the evolution of the complexity as long as the difficulty of Bitcoin blockchain using data visualization and Bitcoin API. You can also find my written research paper in the repository.",
+        "technologies": ["Python", "matplotlib", "pandas", "Bitcoin API"],
+        "githubLink": "https://github.com/nhh1603/bc_complexity"
     },
     {
-        "title": "Apple Music Embeddable Web Player Widget",
+        "title": "The Energy Market",
         "description":
-            "Embeddable web player widget for Apple Music that lets users log in and listen to full song playback in the browser leveraging MusicKit.js.",
-        "technologies": ["MusicKit.js", "JS", "SCSS"]
+            "A simulation of the enery market influenced by other factors such as weather and inflation. The main focus was on the asynchronous and parallel programming in Python.",
+        "technologies": ["Python", "Asynchronous", "Parallel & Concurrent Programming"],
+        "githubLink": "https://github.com/nhh1603/The-Energy-Market"
     }
 ]

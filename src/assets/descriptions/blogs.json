@@ -1,8 +1,8 @@
 [
     {
-        "title": "Building a React Component Library",
+        "title": "Chunking techniques in Retrieval-Augmented Generation (RAG)",
         "thumbnail": "js_thumbnail.jpeg",
-        "description": "Learn how to create a reusable component library in React and publish it to npm."
+        "description": "Learn how chunk documents in the most efficient way for retrieval. Includes advanced techniques and best practices."
     },
     {
         "title": "Optimizing Website Performance",

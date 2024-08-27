@@ -46,7 +46,7 @@ const BlogsPage = () => {
                     ))}
                 </div>
                 <div className="view-all">
-                    <a href="#">View all posts</a>
+                    <button className="contact-button">See More</button>
                 </div>
             </section>
             <SectionDivider />

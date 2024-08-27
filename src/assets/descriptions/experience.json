@@ -6,9 +6,8 @@
         "location": "Lyon, France",
         "duration": "Sep 2024 - Present",
         "description": [
-        "Description 1",
-        "Description 2",
-        "Description 3"
+        "Continued working on RAG architecture, focusing on enhancing an existing application of SLIB, Poste OST, with new AI features. Poste OST (Opérations Sur Titres) is an e-wallet that allows users to manage and do different operations on their securities.",
+        "The new AI features aims to provide users with a more personalized experience, by offering them deeper understanding of complex operations. It can also provides users with step-by-step guidance on how to do a specific operation, and even do it with users' consent to facilitate the usage of the app."
         ]
     },
     {
